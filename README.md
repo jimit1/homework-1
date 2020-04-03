@@ -1,5 +1,7 @@
 # What about box-sizing? What does * do??? Come back to this to solve this.
 
+# Fix aside margin from top
+
 # Things Changed
 
 - Uploaded all images to S3 Bucket. I found that the file size of each images is pretty huge and so uploaded the images to s3 bucket and linked those images onto the html
@@ -50,3 +52,7 @@
 - now that we have a main section - adding the font to main rather than individually on section and aside. same with color
 
 - fuck the margin at the bottom of the third tile (#social-media-marketing) was bothering the crap out of me. so separated it and removed the margin-bottom
+
+- Or event better. only separate out the other top where margings are required. trying to reduce repetition and lenght of code.
+
+- Targetting the image directly by adding the class on image rather than from div outside. 

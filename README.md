@@ -1,8 +1,13 @@
-# What about box-sizing? What does * do??? Come back to this to solve this.
+# Introduction
 
-# Fix aside margin from top
+The original code of this webpage did not contain a lot of HTML5 semantic elements. There was a lot of unnecessary code that needed cleaning up. 
 
-# Things Changed
+# Objective
+
+The code base is suppose to follow all modern HTML5 elements and accessibility standards. It should also be optimized for search engines.
+
+
+# Code refactor steps taken
 
 - Uploaded all images to S3 Bucket. I found that the file size of each images is pretty huge and so uploaded the images to s3 bucket and linked those images onto the html
 
@@ -56,3 +61,17 @@
 - Or event better. only separate out the other top where margings are required. trying to reduce repetition and lenght of code.
 
 - Targetting the image directly by adding the class on image rather than from div outside. 
+
+- Fixed some alignment issue when it is on mobile device. 
+
+- Added comments to the html 
+
+- Added alternate texts to all images
+
+# Results 
+
+Now the code follows all accessibility standards, is optimized for search engines & uses all moderm HTML5 semantics. 
+
+# Credits
+
+Jim Mehta 

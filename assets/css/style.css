@@ -27,10 +27,6 @@ nav h1 {
     color: #d9dcd6;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -68,7 +64,6 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-
 
     .hero {
         height: 800px;
@@ -126,7 +121,6 @@ footer {
         display: block;
         margin: 10px auto;
         max-width: 150px;
-        align-items: center;
     }
 
 }
@@ -188,14 +182,12 @@ footer {
     #search-engine-optimization img, #social-media-marketing img {
         max-height: 250px;
         max-width: 200px;
-        align-items: center;
         padding-bottom: 20px;
     }
 
     #online-reputation-management img {
         max-height: 250px;
         max-width: 200px;
-        align-items: center;
         padding-top: 20px;
     }
 
@@ -203,15 +195,14 @@ footer {
         margin-right: 5px;
         padding: 0px;
         width: 25%;
-        height: 100%;
         background-color: #2589bd;
     }
 
     .benefit-image  {
         max-width: 100px;
-        align-items: center;
         padding-top: 30px;
         padding-bottom: 7px;
+        padding-left: 5x;
     }
-    
+
 }

@@ -18,7 +18,7 @@ nav {
     font-size: 20px;
 }
 
-nav h1 {
+h1 {
     font-size: 48px;
     color: #ffffff;
 }
@@ -27,7 +27,7 @@ nav h1 {
     color: #d9dcd6;
 }
 
-nav ul li {
+ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -107,7 +107,6 @@ footer {
     #online-reputation-management img {
         max-height: 200px;
     }
-
 
     aside {
         margin-right: 15px;
